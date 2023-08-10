@@ -4,4 +4,4 @@ This mod connects the [Currency mod](https://content.minetest.net/packages/mt-mo
 
 This mod is highly configurable; the configurations can be found in `settingtypes.txt`.
 
-This mod is rewritten but inspired by [ATM mod of LinuxForks Minetest Server](https://git.bananach.space/atm.git).
+This mod is rewritten but inspired and taken textures from [ATM mod of LinuxForks Minetest Server](https://git.bananach.space/atm.git).
