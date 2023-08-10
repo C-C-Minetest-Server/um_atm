@@ -1,0 +1,13 @@
+{
+    "Lua.diagnostics.globals": [
+        "um_atm",
+        "minetest",
+        "flow",
+        "um_translate_common",
+        "unified_money",
+        "ItemStack",
+        "zr_stone",
+        "mcl_sounds",
+        "default"
+    ]
+}

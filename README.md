@@ -1,2 +1,7 @@
-# um_atm
-ATM for Unified Money
+# ATM for Unified Money
+
+This mod connects the [Currency mod](https://content.minetest.net/packages/mt-mods/currency/) to [Unified Money](https://content.minetest.net/packages/Emojiminetest/unified_money/) by providing an ATM for taking money out.
+
+This mod is highly configurable; the configurations can be found in `settingtypes.txt`.
+
+This mod is rewritten but inspired by [ATM mod of LinuxForks Minetest Server](https://git.bananach.space/atm.git).

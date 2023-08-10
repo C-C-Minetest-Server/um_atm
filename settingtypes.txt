@@ -1,0 +1,27 @@
+[ATM Types]
+
+# Enable ATM model 1. It can work with one sheet of currency at a time.
+um_atm.types.enable_model1 (Enable ATm model 1) bool true
+
+# Enable ATM model 2. It can work with ten sheet of currency at a time.
+um_atm.types.enable_model2 (Enable ATm model 2) bool true
+
+# Enable ATM model 3. It can work with one hundred sheet of currency at a time.
+um_atm.types.enable_model3 (Enable ATm model 3) bool true
+
+[Currency Types]
+
+# Enable 1 MG currency.
+um_atm.currency.enable_1 (Enable 1 MG currency) bool true
+
+# Enable 5 Mg currency.
+um_atm.currency.enable_5 (Enable 5 MG currency) bool true
+
+# Enable 10 Mg currency.
+um_atm.currency.enable_10 (Enable 10 MG currency) bool true
+
+# Enable 50 Mg currency.
+um_atm.currency.enable_50 (Enable 50 MG currency) bool true
+
+# Enable 100 Mg currency.
+um_atm.currency.enable_100 (Enable 100 MG currency) bool true
