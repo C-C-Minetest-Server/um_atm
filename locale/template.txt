@@ -1,0 +1,14 @@
+# textdomain: um_atm
+
+##[ blocks.lua ]##
+ATM model @1=
+
+##[ gui.lua ]##
+Not enough money in your account=
+Not enough room in your inventory=
+Transaction failed.=
+Not enough money in your inventory=
+Money input=
+Inventory to ATM=
+Money output=
+ATM to Inventory=
