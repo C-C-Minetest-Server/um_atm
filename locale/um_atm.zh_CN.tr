@@ -8,6 +8,12 @@ Not enough money in your account=账户余额不足
 Not enough room in your inventory=背包空间不足
 Transaction failed.=汇款失败。
 Not enough money in your inventory=背包钱币不足
+Deposit / Withdraw=
+ALL=
+
+
+##### not used anymore #####
+
 Money input=钱币输入
 Inventory to ATM=将背包钱币存入提款机
 Money output=钱币输出
