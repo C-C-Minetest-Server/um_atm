@@ -19,3 +19,7 @@ local MP = minetest.get_modpath("um_atm")
 dofile(MP .. "/gui.lua")
 dofile(MP .. "/blocks.lua")
 dofile(MP .. "/craft.lua")
+
+if minetest.global_exists("teacher") then
+    dofile(MP .. "/teacher.lua")
+end

@@ -10,6 +10,15 @@ Transaction failed.=汇款失败。
 Not enough money in your inventory=背包钱币不足
 Deposit / Withdraw=
 ALL=
+You have:@n@1=
+
+##[ teacher.lua ]##
+Automated Teller Machines=
+Automated Teller Machines (ATM) can withdrawal or deposit money. There are three models, with model 3 being the most feature-rich.=
+Right-click ATMs to open their interface. The following buttons may be avaliable depending on the model:=
+Numbers: Withdrawal or deposit this many banknotes.=
+"ALL": Withdrawal or deposit all banknotes of this type.=
+Positive signs represent withdrawal, and negative signs represent deposit. The "ALL" buttons are only available on ATM model 3.=
 
 
 ##### not used anymore #####

@@ -12,25 +12,30 @@ end
 
 local function register_atm(lvl)
     minetest.register_node("um_atm:atm_" .. str(lvl), {
-        description = S("ATM model @1",lvl),
+        description = S("ATM model @1", lvl),
         tiles = {
-            "atm" .. ((lvl == 1) and "" or str(lvl)) .. "_top.png", "atm" .. ((lvl == 1) and "" or str(lvl)) .. "_top.png",
-            "atm" .. ((lvl == 1) and "" or str(lvl)) .. "_side.png", "atm" .. ((lvl == 1) and "" or str(lvl)) .. "_side.png",
-            "atm" .. ((lvl == 1) and "" or str(lvl)) .. "_side.png", "atm" .. ((lvl == 1) and "" or str(lvl)) .. "_front.png"
+            "atm" .. ((lvl == 1) and "" or str(lvl)) .. "_top.png", "atm" ..
+        ((lvl == 1) and "" or str(lvl)) .. "_top.png",
+            "atm" .. ((lvl == 1) and "" or str(lvl)) .. "_side.png", "atm" ..
+        ((lvl == 1) and "" or str(lvl)) .. "_side.png",
+            "atm" .. ((lvl == 1) and "" or str(lvl)) .. "_side.png", "atm" ..
+        ((lvl == 1) and "" or str(lvl)) .. "_front.png"
         },
         paramtype2 = "facedir",
         groups = {
-            cracky=2, pickaxey=1,
-            bank_equipment = 1
+            cracky = 2,
+            pickaxey = 1,
+            bank_equipment = 1,
+            um_atm = 1,
         },
         legacy_facedir_simple = true,
-	    is_ground_content = false,
+        is_ground_content = false,
         _mcl_blast_resistance = 6,
         _mcl_hardness = 1.5,
         stack_max = minetest.global_exists("mcl_core") and 64 or 99,
         sounds = sound,
         on_rightclick = function(pos, node, player, itemstack, pointed_thing)
-            um_atm.gui:show(player, {lvl = lvl})
+            um_atm.gui:show(player, { lvl = lvl })
         end
     })
 end
