@@ -188,9 +188,15 @@ um_atm.gui = flow.make_gui(function(player, ctx)
         end
     end
 
-    insert(body, gui.Label {
-        align_h = "right",
-        label = um_translate_common.balance_show(balance)
+    insert(body, (ctx.lvl == 1 and gui.VBox or gui.HBox) {
+        gui.Label {
+            label = um_translate_common.balance_show(balance),
+            expand = true,
+        },
+        gui.Label {
+            label = S("-: Deposit / +: Withdraw"),
+            expand = true,
+        },
     })
 
     return gui.VBox(body)
