@@ -22,13 +22,13 @@ teacher.register_turorial("um_atm:tutorial_atm", {
     },
 
     {
-        texture = "um_atm_tutorial_1.png",
+        texture = "um_atm_tutorial_1.jpg",
         text =
             S("Automated Teller Machines (ATM) can withdrawal or deposit money. " ..
                 "There are three models, with model 3 being the most feature-rich."),
     },
     {
-        texture = "um_atm_tutorial_2.png",
+        texture = "um_atm_tutorial_2.jpg",
         text =
             S("Right-click ATMs to open their interface. " ..
                 "The following buttons may be avaliable depending on the model:") ..
